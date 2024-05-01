@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#14171f;
+    height: 100vh;
+    font-family:'Source Sans 3',sans-serif; 
+}
+.cookie{
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-image: url(images/ot_persistent_cookie.png);
+
+}
+.navbar{
+    height: 72px;
+    width: 100%;
+    background-color: #101010;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-logo{
+    width: 257px;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 55px;
+}
+.navbar ul{
+    list-style-type: none;
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+
+}
+.navbar li{
+    color: white;
+    float: left;
+    padding: 0px 24px 0px 24px;
+
+}
+.hero-container{
+    /* background-image: url(images/hero-image.jpg); */
+    background-image: linear-gradient(rgba(0,0, 0, 0)67%, rgba(20,23,31)), url(images/hero-image.jpg);
+    
+    height: 630px;
+    /* -webkit-mask-image: linear-gradient(#000 , rgba(0,0,0,.2));
+    mask-image: linear-gradient(#000,rgba(0,0,0,0)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.hero-children{
+    height: 630px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#hero-heading{
+    color: white;
+    font-family: 'Source Sans 3',sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.04267;
+    margin-top: 430px;
+    
+    
+    
+    
+}
+.hero-button{
+    width: 298.4px;
+    height: 54.4px;
+    padding: 8px 24px 8px 24px;
+    border: 0.8px solid white;
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+    
+    align-items: center;
+
+    margin-top: 54px;
+    background-color: white;
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    
+    
+}
+.hero-button-text{
+    color:black;
+    font-family: 'Source Sans 3',sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+
+    
+    
+}
+
+.hero-button:hover{
+    background-color: transparent;
+    .hero-button-text{
+        color:white;
+    }
+}
+
+.showcase{
+    height: 502px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color:transparent;
+    
+}
+
+.item{
+    min-width: 416px;
+    height: 234px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:30px;
+    
+}
+
+.slide-logo{
+    width:208px;
+}
+
+#one{
+    background-image: url(images/CS2.jpg);
+}
+#two{
+   background-image: url( images/ageofwonders4-bg.jpg);
+}
+#three{
+    background-image: url(images/millennia.jpg);
+}
+#four{
+    background-image: url(images/pa2-main.jpg);
+}
+#five{
+    background-image: url(images/ck3-img.jpg);
+}
+#six{
+    background-image:url(images/stellaris.png);
+}
+#seven{
+    background-image: url(images/bloodlines-2.jpg);
+}
+#eight{
+    background-image:url(images/v3-mainbg-web.jpg);
+}
+#justaftereight{
+    background-image: url(images/ato-main.jpg);
+}
+#nine{
+    background-image: url(images/lamp-frontpage.jpg);
+}
+#ten{
+    background-image: url(images/lby-yt-scrnshot2web1ss.jpg);
+}
+#eleven{
+    background-image: url(images/Heartsofiron4_bg.jpg);
+}
+#twelve{
+    background-image: url(images/euiv-frontpage.jpg);
+}
+#thirteen{
+    background-image: url(images/Surviving_Aftermath_bg.jpg);
+}
+#fourteen{
+    background-image: url(images/cities-img.jpg);
+}
+#fifteen{
+    background-image: url(images/Surviving_Mars_bg2.jpg);
+}   
+
+
+.slider{
+    height:242px ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    overflow-x: auto;
+    
+    margin-left: 112px;
+}
+.slider ::-webkit-scrollbar{
+    display: none;
+}
+
+#view{
+    margin-left: 112px;
+    padding:8px 12px 8px 12px;
+    width: 150.433px;
+    height: 40.2px;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .75;
+    margin-top: 0px;
+    
+    
+    
+}
+.uni-heading{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    display: flex;
+    
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    /* white-space: nowrap; */
+    overflow:hidden;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.paradox-universe{
+    width: 100%;
+    height:320px;
+    display: flex;
+    justify-content: center;
+    padding:0px 112px 0px 112px;
+    height:320px;
+    width: 100%;
+   
+}
+.uni-contents{
+    display: flex;
+    flex-direction: column;
+    padding:72px 0px 72px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.uni-buttons{
+    height: 56px;
+    width: 301.133px;
+    display: flex;
+    justify-content: space-between;
+}
+#join-us-button{
+    margin: 0px;
+    width: 144.533px;
+}
+.view-button-arrows{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.arrows{
+    width: 91.2px;
+    height: 40px;
+    margin-right: 112px;
+    display: flex;
+    color: white;
+}
+.arrow{
+    border: .5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 41.6px;
+    margin: auto;
+}
+.arrow:hover{
+    background-color: white;
+    color: black;
+}
+.sign-button{
+    margin: 0px;
+    width: 144.533px;
+    background-color: transparent;
+    color: white;
+
+
+    
+    height: 54.4px;
+    padding: 8px 24px 8px 24px;
+    border: 0.8px solid white;
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+    
+    align-items: center;
+
+    background-color: transparent;
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.sign-button-text{
+    color:white;
+    font-family: 'Source Sans 3',sans-serif;
+
+    
+    
+}
+.sign-button:hover{
+    
+        background-color: white;
+        .sign-button-text{
+            color:black;
+        }
+    
+}
+
+.about{
+    height: 432px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.about-image{
+    height: 768;
+    width: 50%;
+    background-image: url("images/Paradox-about-us.jpg");
+    background-size: cover;
+    
+}
+.about-text-container{
+    height: 432px;
+    width: 50%;
+    display: flex;
+    
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.about-text{
+    height: 292px;
+    /* padding: 24px 112px  24px 112px; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.about-heading{
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.about-para{
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 528px;
+}
+.openings{
+    height: 432px;
+    width: 100%;
+    display: flex;
+}
+.open-image{
+    height: 768;
+    width: 50%;
+    background-image: url("images/paradox-work-positions.jpg");
+    background-size: cover;
+}
+
+.open-text-container{
+    height: 432px;
+    width: 50%;
+    display: flex;
+    
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.open-text{
+    height: 340px;
+    width: 768px;
+    padding: 24px 112px  24px 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#learn-button{
+    width: 181.1px;
+    height: 56px;
+}
+#learn-button2{
+    width: 181.1px;
+    height: 56px;
+    margin: 0px;
+}
+#open-button{
+    width: 279.9px;
+    height: 56px;
+}
+.community-invite{
+    margin: 72px 0px 72px 0px;
+    width: 100%;
+    height: 576.317px;
+    padding: 0px 112px 0px 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.com-arrow{
+    width: 24px;
+    
+    height:136px;
+    display: flex;
+    margin-left: auto;
+    color: white;
+    flex-direction:row;
+    align-items: flex-end;
+  
+}
+.com-arrow :hover{
+    background-color: white;
+    color: black;
+}
+.paradox-arc{
+    height: 568px;
+    
+    padding: 64px 112px 64px 112px;
+    
+}
+.paradox-image{
+    background-image: url(images/promo.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.arc-img{
+    height:277.75px ;
+    width: 528px;
+    
+}
+.our-games{
+    height: 466.667px;
+    background-image: url(images/ourgames-collage.jpg);
+    
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+}
+.our-text{
+ 
+    width: 50%;
+    height: 466.667px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.our-games-heading{
+    font-size: 3rem;
+    line-height: 1.04167;
+    font-weight: 700;
+    margin: 0px 0px 24px 0px;
+}
+.our-games-text{
+    color: white;
+    height: 274px;
+    width: 528px;
+    padding:  24px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.our-games-text p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#explore-button{
+    height: 56px;
+    width: 279px;
+    margin-top:auto;
+}
+
+.promo-list{
+   
+   width: 50%;
+   height: 466.667px;
+}
+.promo-list-img{
+    height: 466.667px;
+    width: 768px;
+}
+footer{
+    height: 524px;
+    background-color: #101010;
+    padding: 16px 112px 48px 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foot-logo-icons{
+    height: 52px;
+    width: 1312px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text-columns{
+    height: 324px;
+    width: 1312px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-text{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 218.667px;
+    
+}
+.footer-text p{
+    padding: 10px 0px 10px 0px;
+    letter-spacing: .75px;
+    line-height: 1.33333;
+
+
+
+}
+
+
+.foot-logo{
+    width: 120px;
+    height: 25.6333px;
+}
+.foot-icons{
+    width: 240px;
+    height:52px;
+    
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.copyright{
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.para{
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.privacy{
+    height: 20px;
+    font-size: 14px;
+    letter-spacing: .75px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.join-heading{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 16px;
+
+}
+
+
+.community-sections{
+    height: 484.317;
+    width: 100%;
+     display: flex;
+    justify-content: space-between; 
+
+}
+.individual-section{
+    height: 484.317px;
+    width: 416px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.image-section{
+    
+    background-size: cover;
+    height: 300.317px;
+    width: 416px;
+}
+#wiki{
+    background-image: url(images/PDX_MAIN_WIKI.jpg);
+}
+#forum{
+    background-image: url(images/PDX_MAIN_FORUM.jpg);
+}
+
+#mods{
+    background-image: url(images/PDX_MAIN_MODS.jpg);
+}
+
+.comm-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.comm-para{
+    height: auto;
+    width: 320px;
+}
+
+.arc-text{
+    height: 296px;
+    width: 416px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.arc-text h2{
+    font-size: 2rem;
+    line-height: 1.124;
+    font-weight: 700px;
+    
+}
+.arc-image{
+  height: 277.75px; 
+  width: 528px;
+  /* background-image: url(images/PDXArc2__1_.png); */
+
+    
+}
+.arc-text p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
